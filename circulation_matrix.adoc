@@ -25,6 +25,7 @@ This statement could require multiple rules if "Print Books" and "Audiobooks" ha
 
 
 == Elements of a circulation rule
+[%header, cols=2*]
 |===
 |*Field* |*Note* 
 |Active |Required to enable the rule; unchecking is the only way to "delete" a rule 

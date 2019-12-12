@@ -29,7 +29,7 @@ The Circulation Matrix is created by translating library circulation policies - 
 |User Lower Bound |Limits circ based on user age range
 |User Upper Bound |Limits circ based on user age range
 |Item Age |Limits circ based on age of item
-|Circulate? |Check if items circulate; uncheck for special rules when some subset of circulating materials do not circ |
+|Circulate? |Check if items circulate; uncheck for special rules when some subset of circulating materials do not circ
 |Duration Rule |Required; select existing duration rule from list. If no exisiting rule, a new rule must be created before creating the circ rule
 |Renewals Override |??
 |Hard Date |Use if all circulated items must be returned by a set date, such as the end of a semester 

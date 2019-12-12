@@ -1,0 +1,57 @@
+= Circulation Modifiers
+Lindsay Stratton <lstratton@wlsmail.org>
+v1.0, 2019-12-12
+
+:toc:
+
+== What are Circulation Modifiers?
+
+== WLS Circulation Modifiers
+
+|===
+|Name|Description|Notes
+|1 Day Express media||
+|14 Day Express||
+|14 Day Express Media||
+|21 Day Express||
+|21 Day Express Media||
+|3 Day Express Media||
+|7 Day Express||
+|7 Day Express Media||
+|AV Equipment||
+|Bluray||
+|Blueray Series||
+|Book||
+|CD||
+|CD Audiobook||
+|CDRom||
+|Cassette||
+|Cassette Audiobook||
+|DVD||
+|DVD Series||
+|Digital Audio||
+|electronic Book Reader||
+|Flashdrive||
+|Game Console||
+|Holiday||
+|ILL||
+|Instrument||
+|Kit||
+|Laptop||
+|MP3 Audiobook||
+|Magazine||
+|Makerspace Kit||
+|Microform||
+|New Book||
+|Newspaper||
+|Pamphlet||
+|Playaway||
+|Playaway View||
+|Record||
+|Reference AV||
+|Reference Book||
+|Tablet||
+|Toys||
+|UMD||
+|Video||
+|Video Game||

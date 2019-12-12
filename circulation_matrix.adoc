@@ -1,4 +1,7 @@
 = Understanding your Circulation Matrix
+Lindsay Stratton <lstratton@wlsmail.org>
+v1.0, 2019-12-12
+:toc:
 
 == What does the circulation matrix do?
 The Circulation Matrix controls how items circulate: from which library, to which users, for how long, with how many renewals, and what fines they will generate. When an item is checked out or renewed, Evergreen scripts scan the Circulation Matrix to find the rule that best matches the item and patron being scanned.

@@ -1,4 +1,5 @@
 # evergreen_documentation
-Evergreen ILS documentation written for the Pioneer Library System
-Written for EGILS v.3 web client. Originally written in TWiki markup, objective is to translate to markdown. 
-Base documents for update to v.3.3 (Sept.2019)
+Evergreen ILS documentation written for Westchester Library System; for EGILS v.3.2 web client.
+
+Some documents originally developed for the Pioneer Library System, written in TWiki markup; v.3.0 & 3.3.
+

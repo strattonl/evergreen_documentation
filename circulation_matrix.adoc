@@ -9,9 +9,11 @@ The Circulation Matrix controls how items circulate: from which library, to whic
 The Circulation Matrix is created by translating library circulation policies - such as "Adult print books and audiobooks may be checked out for three weeks; if not returned by or on the due date, they will accrue overdue fines of $0.20 cents per day, to maximum of $5.00 until returned" - into codes, which are then combined into rules.
 
 == Circulation rules
-The core elements of a circulation rule are Permission Group (patron), Org Unit (library that "owns" the rule), Circulation Modifier (item type), Circulate?, Duration Rule (loan period), Recurring Fine Rule (daily fines), and MAx Fine (amount at which daily fines stop accruing).
+The core elements of a circulation rule are Permission Group (patron), Org Unit (library that "owns" the rule), Circulation Modifier (item type), Circulate?, Duration Rule (loan period), Recurring Fine Rule (daily fines), and Max Fine (amount at which daily fines stop accruing). Most of these elements link to data that must be configured before creating a circulation rule; the 
 
-The statement "Adult print books and audiobooks may be checked out for three weeks; if not returned by or on the due date, they will accrue overdue fines of $0.20 cents per day, to maximum of $5.00 until returned" - would map to a circulation rule like so:
+=== First steps toward a circulation rule
+
+Map the circulation policy statement to the elements of a circulation rule: "Adult print books and audiobooks may be checked out for three weeks; if not returned by or on the due date, they will accrue overdue fines of $0.20 cents per day, to maximum of $5.00 until returned."
 
 - Circulate -> Yes
 - Print books and audiobooks -> Circulation Modifier
@@ -22,8 +24,8 @@ The statement "Adult print books and audiobooks may be checked out for three wee
 This statement could require multiple rules if "Print Books" and "Audiobooks" have their own Circulation Modifiers, if different borrowing groups have different circulation durations and/or fine rates, or if there are other special circumstances need to be met.
 
 
-.Elements of a circulation rule
-|===
+== Elements of a circulation rule
+
 |*Field* |*Note* 
 |Active |Required to enable the rule; unchecking is the only way to "delete" a rule 
 |Permission Group |Required; Patron profile the rule applies to; if a rule applies to all, select "Users" 
@@ -54,7 +56,6 @@ This statement could require multiple rules if "Print Books" and "Audiobooks" ha
 |Minimum Total Copy/Hold Ratio  |??
 |Description |Recommended to explain a particular rule, particularly for exceptions to other rules 
  
-
 
 
 

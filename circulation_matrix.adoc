@@ -10,7 +10,7 @@ The Circulation Matrix is created by translating library circulation policies - 
 
 .Elements of the circulation matrix
 |===
-|Field |Note 
+|*Field* |*Note* 
 |Active |Required to enable the rule; unchecking is the only way to "delete" a rule 
 |Permission Group |Required; Patron profile the rule applies to; if a rule applies to all, select "Users" 
 |Org Unit |Required; CONS to apply for all libraries, otherwise specify LIB code
@@ -22,23 +22,23 @@ The Circulation Matrix is created by translating library circulation policies - 
 |Circulation Modifier |Indicates the materials the rule applies to; leave blank to apply the rule to all materials
 |Copy Location |The rule will be applied only to materials within a specific library's copy location
 | MARC Type |The rule applies based on the MARC 008 Type code in the bibliographic record 
-| MARC Form | the rule applies based on the MARC 008 Form code in the bibliographic record  |
-| MARC Level | the rule applies based on the MARC 008 BLvL code in the bibliographic record |
-| Videorecording Format | the rule applies based on the MARC 007, indicator 04 Videorecording Format code in the bibliographic record |
-| Reference? | only used for circulation of reference materials |
-| User Lower Bound | for circ based on user age range |
-| User Upper Bound | for circ based on user age range |
-| Item Age | for circ based on age of item |
+| MARC Form | the rule applies based on the MARC 008 Form code in the bibliographic record  
+| MARC Level | the rule applies based on the MARC 008 BLvL code in the bibliographic record 
+| Videorecording Format | the rule applies based on the MARC 007, indicator 04 Videorecording Format code in the bibliographic record 
+| Reference? | only used for circulation of reference materials
+| User Lower Bound | for circ based on user age range
+| User Upper Bound | for circ based on user age range
+| Item Age | for circ based on age of item
 | Circulate? | check if items circulate; uncheck for special rules when some subset of circulating materials do not circ |
-| Duration Rule | Required; select existing duration rule from list. If no exisiting rule, a new rule must be created before creating the circ rule |
-| Renewals Override | |
-| Hard Date | Use if all circulated items must be returned by a set date, such as the end of a semester |
-| Recurring Fine Rule | Required; select existing fine rule from list. If no existing fine rule, a new rule must be created before creating the circ rule. |
-| Grace Override |  |
-| Max Rule | Required; select existing max fine policy from list. If no existing max fine rule, a new rule must be created before creating the circ rule. |
-| Minimum Available Copy/Hold Ratio |  |
-| Minimum Total Copy/Hold Ratio |  |
-| Description | recommended to explain a particular rule, particularly for exceptions to other rules |
+| Duration Rule | Required; select existing duration rule from list. If no exisiting rule, a new rule must be created before creating the circ rule
+| Renewals Override |
+| Hard Date | Use if all circulated items must be returned by a set date, such as the end of a semester 
+| Recurring Fine Rule | Required; select existing fine rule from list. If no existing fine rule, a new rule must be created before creating the circ rule
+| Grace Override |  
+| Max Rule | Required; select existing max fine policy from list. If no existing max fine rule, a new rule must be created before creating the circ rule
+| Minimum Available Copy/Hold Ratio
+| Minimum Total Copy/Hold Ratio 
+| Description | recommended to explain a particular rule, particularly for exceptions to other rules 
  
 
 

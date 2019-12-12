@@ -8,6 +8,7 @@ v1.0, 2019-12-12
 
 == WLS Circulation Modifiers
 
+[%header,cols=3*]
 |===
 |Name|Description|Notes
 |1 Day Express media||

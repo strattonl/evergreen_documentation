@@ -10,11 +10,11 @@ The core elements of a circulation rule are Permission Group (patron), Org Unit 
 
 The statement "Adult print books and audiobooks may be checked out for three weeks; if not returned by or on the due date, they will accrue overdue fines of $0.20 cents per day, to maximum of $5.00 until returned" - would map to a circulation rule like so:
 
-- Circulate --> Yes
-- Print books and audiobooks --> Circulation Modifier
-- Three weeks --> Loan Duration, loan duration also includes renewals (mediated or auto) 
-- $0.20 fines per day --> Recurring Fine Rule
-- $5.00 --> Max Fine
+- Circulate -> Yes
+- Print books and audiobooks -> Circulation Modifier
+- Three weeks -> Loan Duration, loan duration also includes renewals (mediated or auto) 
+- $0.20 fines per day -> Recurring Fine Rule
+- $5.00 -> Max Fine
  
 This statement could require multiple rules if "Print Books" and "Audiobooks" have their own Circulation Modifiers, if different borrowing groups have different circulation durations and/or fine rates, or if there are other special circumstances need to be met.
 

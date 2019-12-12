@@ -1,6 +1,6 @@
-# Understanding your Circulation Matrix
+= Understanding your Circulation Matrix
 
-## What does the circulation matrix do?
+== What does the circulation matrix do?
 The Circulation Matrix controls how items circulate: from which library, to which users, for how long, with how many renewals, and what fines they will generate. When an item is checked out or renewed, Evergreen scripts scan the Circulation Matrix to find the rule that best matches the item and patron being scanned.
 
 The Circulation Matrix is created by translating library circulation policies - such as "Adult print books and audiobooks may be checked out for three weeks; if not returned by or on the due date, they will accrue overdue fines of $0.20 cents per day, to maximum of $5.00 until returned" - into codes, which are then combined into rules.
@@ -8,20 +8,20 @@ The Circulation Matrix is created by translating library circulation policies - 
 
  
 
-## Elements of the circulation matrix
-| *Field* | *Note* |
-|---------|---------|
-| Active | Required to enable the rule; unchecking is the only way to "delete" a rule |
-| Permission Group | Required; Patron profile the rule applies to; if a rule applies to all, select "Users" |
-| Org Unit | Required; CONS to apply for all libraries, otherwise specify LIB code |
-| Copy Circ Lib | if circ is limited to a checkout library only |
-| Copy Owning Lib | if circ limited to materials owned by a specific library |
-| User Home Lib | if circ is limited to specific library patrons |
-| Renewal? | indicates the rule is ONLY for renewals |
-| Juvenile? | if circ is limited to patron accounts marked juvenile  |
-| Circulation Modifier | type of materials the rule applies to; leave blank to apply the rule to all  |
-| Copy Location | if circ is limited to materials within a specific library's copy location |
-| MARC Type | the rule applies based on the MARC 008 Type code in the bibliographic record |
+.Elements of the circulation matrix
+|===
+|Field |Note 
+|Active 
+|Permission Group 
+|Org Unit 
+|Copy Circ Lib 
+|Copy Owning Lib 
+|User Home Lib 
+|Renewal?
+|Juvenile? 
+|Circulation Modifier 
+|Copy Location 
+| MARC Type 
 | MARC Form | the rule applies based on the MARC 008 Form code in the bibliographic record  |
 | MARC Level | the rule applies based on the MARC 008 BLvL code in the bibliographic record |
 | Videorecording Format | the rule applies based on the MARC 007, indicator 04 Videorecording Format code in the bibliographic record |
@@ -40,3 +40,14 @@ The Circulation Matrix is created by translating library circulation policies - 
 | Minimum Total Copy/Hold Ratio |  |
 | Description | recommended to explain a particular rule, particularly for exceptions to other rules |
  
+|Required to enable the rule; unchecking is the only way to "delete" a rule 
+|Required; Patron profile the rule applies to; if a rule applies to all, select "Users" 
+|Required; CONS to apply for all libraries, otherwise specify LIB code
+|Circ will be limited to the checkout library only
+|Circ will be limited to materials owned by the specific library
+|Circ will be limited to the specific library's patrons
+|The rule is ONLY for renewals 
+|The circ is limited to juvenile patron accounts; juvenile is calculated by the date of birth field and the Juvenile Age Threshold Library Setting
+|Indicates the materials the rule applies to; leave blank to apply the rule to all materials
+|The rule will be applied only to materials within a specific library's copy location
+|The rule applies based on the MARC 008 Type code in the bibliographic record 

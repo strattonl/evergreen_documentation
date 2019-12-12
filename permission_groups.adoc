@@ -1,0 +1,16 @@
+= Permission Groups
+Lindsay Stratton <lstratton@wlsmail.org>
+v1.0, 2019-12-12
+
+== What are Permission Groups?
+Permission Groups define different types of users and establish what tasks, functions, and features different users can access. 
+
+There are two basic groups: Staff users and Patron users. For patrons, permision groups are primarily used to define circulation and hold rules, and related circulation policies such as thresholds and limits. They can also be used for statistical reports.
+
+Staff groups are primarily used to manage staff client functions. 
+
+== Defining Permission Groups
+
+== WLS Patron Groups
+
+== WLS Staff Groups

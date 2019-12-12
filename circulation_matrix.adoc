@@ -11,17 +11,17 @@ The Circulation Matrix is created by translating library circulation policies - 
 .Elements of the circulation matrix
 |===
 |Field |Note 
-|Active 
-|Permission Group 
-|Org Unit 
-|Copy Circ Lib 
-|Copy Owning Lib 
-|User Home Lib 
-|Renewal?
-|Juvenile? 
-|Circulation Modifier 
-|Copy Location 
-| MARC Type 
+|Active |Required to enable the rule; unchecking is the only way to "delete" a rule 
+|Permission Group |Required; Patron profile the rule applies to; if a rule applies to all, select "Users" 
+|Org Unit |Required; CONS to apply for all libraries, otherwise specify LIB code
+|Copy Circ Lib |Circ will be limited to the checkout library only
+|Copy Owning Lib |Circ will be limited to materials owned by the specific library
+|User Home Lib |Circ will be limited to the specific library's patrons
+|Renewal? |The rule is ONLY for renewals 
+|Juvenile? |The circ is limited to juvenile patron accounts; juvenile is calculated by the date of birth field and the Juvenile Age Threshold Library Setting
+|Circulation Modifier |Indicates the materials the rule applies to; leave blank to apply the rule to all materials
+|Copy Location |The rule will be applied only to materials within a specific library's copy location
+| MARC Type |The rule applies based on the MARC 008 Type code in the bibliographic record 
 | MARC Form | the rule applies based on the MARC 008 Form code in the bibliographic record  |
 | MARC Level | the rule applies based on the MARC 008 BLvL code in the bibliographic record |
 | Videorecording Format | the rule applies based on the MARC 007, indicator 04 Videorecording Format code in the bibliographic record |
@@ -40,14 +40,14 @@ The Circulation Matrix is created by translating library circulation policies - 
 | Minimum Total Copy/Hold Ratio |  |
 | Description | recommended to explain a particular rule, particularly for exceptions to other rules |
  
-|Required to enable the rule; unchecking is the only way to "delete" a rule 
-|Required; Patron profile the rule applies to; if a rule applies to all, select "Users" 
-|Required; CONS to apply for all libraries, otherwise specify LIB code
-|Circ will be limited to the checkout library only
-|Circ will be limited to materials owned by the specific library
-|Circ will be limited to the specific library's patrons
-|The rule is ONLY for renewals 
-|The circ is limited to juvenile patron accounts; juvenile is calculated by the date of birth field and the Juvenile Age Threshold Library Setting
-|Indicates the materials the rule applies to; leave blank to apply the rule to all materials
-|The rule will be applied only to materials within a specific library's copy location
-|The rule applies based on the MARC 008 Type code in the bibliographic record 
+
+
+
+
+
+
+
+
+
+
+

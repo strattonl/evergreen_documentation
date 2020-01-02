@@ -23,6 +23,16 @@ Map the circulation policy statement to the elements of a circulation rule: "Adu
  
 This statement could require multiple rules if "Print Books" and "Audiobooks" have their own Circulation Modifiers, if different borrowing groups have different circulation durations and/or fine rates, or if there are other special circumstances need to be met.
 
+=== Standardization, Exceptions, Inheritance, Comprehensiveness
+The most common recommendation for circulation rules is standardization. If all libraries in a consortia use the same circulation modifiers, patron groups, loan durations, and fine rates, one set of rules could be used by all libraries. Individual libraries would inherit the consortial rules.
+
+Most consortia create standard rules for certain materials, such as books, and allow libraries to have local rules for other materials, such a A/V materials. The libraries inherit the consortial book rules, their local rules are exceptions. Other typical exception rules are used when libraries have different fine rates. 
+
+Sometimes libraries' exception rules will have their own exceptions. For example: Consortia 1 has a standard rule for Videos, which says they circulate for 2 weeks, with fines of $0.50 per day. Library A circulates Videos for 1 week, with fines of $1.00 per day, except for employee acounts, which are not charged fines. Library A would need 2 circulation rules for Video materials.
+
+Because it can be confusing for library staff to know or determine which rules are inherited from the consortia, and which are local exceptions, some people argue for comprehesive rules for each library, and use consortial rules only as backup in case an item or patron account is incoreectly coded. This makes communicating a specific libraries' circulation policies more transparent, and helps ensure items circulate as expected at each library; however, it also causes duplication and increases the difficulty in managing ciculation rules at the consortia level.
+
+
 
 == Elements of a circulation rule
 [%header, cols=2*]

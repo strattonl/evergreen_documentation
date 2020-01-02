@@ -9,7 +9,7 @@ The Circulation Matrix controls how items circulate: from which library, to whic
 The Circulation Matrix is created by translating library circulation policies - such as "Adult print books and audiobooks may be checked out for three weeks; if not returned by or on the due date, they will accrue overdue fines of $0.20 cents per day, to maximum of $5.00 until returned" - into codes, which are then combined into rules.
 
 == Circulation rules
-The core elements of a circulation rule are Permission Group (patron), Org Unit (library that "owns" the rule), Circulation Modifier (item type), Circulate?, Duration Rule (loan period), Recurring Fine Rule (daily fines), and Max Fine (amount at which daily fines stop accruing). Most of these elements link to data that must be configured before creating a circulation rule; the 
+The core elements of a circulation rule are Permission Group (patron), Org Unit (library that "owns" the rule), Circulation Modifier (item type), Circulate?, Duration Rule (loan period), Recurring Fine Rule (daily fines), and Max Fine (amount at which daily fines stop accruing). All of these elements link to data that must be configured before creating a circulation rule. 
 
 === First steps toward a circulation rule
 

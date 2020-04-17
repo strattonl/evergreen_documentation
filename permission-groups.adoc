@@ -14,7 +14,7 @@ Staff groups are primarily used to manage staff client functions. Staff client f
 == Defining Permission Groups
 
 === Permission group hierarchy
-
+![PermissionGroupsHierarchy_Collapsed](https://user-images.githubusercontent.com/6976842/79605434-ea854c00-80bd-11ea-87d6-00ca75b0d9d6.jpg)
 
 === Patrons
 

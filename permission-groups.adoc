@@ -5,13 +5,19 @@ v1.0, 2019-12-12
 == What are Permission Groups?
 Permission Groups define different types of users and establish what tasks, functions, and features different users can access. 
 
+- Permission groups appear in circulation policies, circularion policy limit sets, hold policies, group penalty thresholds, and as a data point in reports.  
+- A user record must be assigned to at least one permission group, also referred to as a patron profile, in order to be created.
+- Permission groups are configured in the staff client in Administration --> Server Administration --> Permission Groups.
+
 === There are two basic groups: Staff users and Patron users 
 
 For patrons, permision groups are primarily used to define circulation rules and hold rules, and related circulation policies such as thresholds for fines, total items out, and total overdues, and limits for number of items of a specific type. They can also be used for statistical reports.
 
 Staff groups are primarily used to manage staff client functions. Staff client functions have corresponding permissions that define what tasks can be performed. In order for a task to be completed, the permission must be assigned to the staff group who will be performing the task. For example: CHECKOUT_ITEM is the permission related to checking out items to users. That permission should be assigned to staff groups that will be responsible for circulation tasks.
 
+
 == Defining Permission Groups
+The first step in defining a permission group is to identify like types of users. Becasue permission groups are used in a variety of places - circulation characteristics, hold privieleges, and reports - start by grouping users in very granular sets.
 
 === Permission group hierarchy
 
@@ -27,5 +33,6 @@ Staff groups are primarily used to manage staff client functions. Staff client f
 == WLS Staff Groups
 
 == Permission groups vs. permissions assigned to users
+Permissions are assigned to groups to streamline permissions management. Permissions
 
 == Permissions list, with definitions and requirements

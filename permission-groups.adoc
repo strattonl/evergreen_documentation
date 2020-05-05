@@ -7,43 +7,55 @@ Permission Groups define different types of users and establish what tasks, func
 
 - Permission groups appear in circulation policies, circularion policy limit sets, hold policies, group penalty thresholds, and as a data point in reports.  
 - A user record must be assigned to at least one permission group, also referred to as a patron profile, in order to be created.
-- Permission groups are configured in the staff client in Administration --> Server Administration --> Permission Groups.
+- Permission groups are configured in the staff client in Administration -> Server Administration -> Permission Groups.
 
-=== There are two basic groups: Staff users and Patron users 
-
+=== Defining Permission Groups
+The first step in defining permission groups is to identify like types of users. Becasue permission groups are used in a variety of places start by grouping users in very general categories - patron users and staff users - and then further sort them into mpore granular sets accordng to shared circulation characteristcs or shared staff roles.
+ 
+=== Patrons
 For patrons, permision groups are primarily used to define circulation rules and hold rules, and related circulation policies such as thresholds for fines, total items out, and total overdues, and limits for number of items of a specific type. They can also be used for statistical reports.
 
+==== Patron groups and circulation rules
+
+=== Staff
 Staff groups are primarily used to manage staff client functions. Staff client functions have corresponding permissions that define what tasks can be performed. In order for a task to be completed, the permission must be assigned to the staff group who will be performing the task. For example: CHECKOUT_ITEM is the permission related to checking out items to users. That permission should be assigned to staff groups that will be responsible for circulation tasks.
 
 
-== Defining Permission Groups
-The first step in defining a permission group is to identify like types of users. Becasue permission groups are used in a variety of places - circulation characteristics, hold privieleges, and reports - start by grouping users in very granular sets.
 
-=== Permission group hierarchy
+== Assigning Permissions
 
 === Permission depth
 Permission depth is used to specify to what depth in the Organizational Unit hierarchy - or, at which org unit, toward whose items or patrons - permissions are applicable. 
 
 For example, the RENEW_CIRC permssion is applied to all User groups at depth=0. This allows any user - patron or staff - to renew any libraries' material, using the OPAC or any library workstation. In contrast, the DELETE_COPY permission is applied to the Catalogers group at depth=2. This limits the ability to delete an item record to staff in the Catalogers group, who can only delete item records owned by their local library system/branches, and cannot delete copies owned by other libraries. 
-
  0 - Entire Consortia - WEST - Westchester Library System
  1 - Local System - S_WLS - Westchester Library System Members
  2 - Library System - S_HAR - Harrison Public Library System
  3 - Library - HAR - Harrison Lublic Library
  3 - Library - HWE - West Harrison Branch Library 
  
- 
-=== Patrons
 
-==== Patron groups and circulation rules
-
-=== Staff
-
-== WLS Patron Groups
-
-== WLS Staff Groups
-
-== Permission groups vs. permissions assigned to users
+=== Permission groups vs. permissions assigned to users
 Permissions are assigned to groups to streamline permissions management. Permissions
+
+== WLS permission groups
+.Permission Group Table
+|===
+|Group Name |Parent | Role |Has Users
+|Users
+|
+|
+|No
+
+|Homebound
+|Users
+|Assigned to patrons who receive long loan durations
+|Yes
+
+|ILL
+|Users
+|Assigned to inter-library loan accounts
+|Yes
+|===
 
 == Permissions list, with definitions and requirements

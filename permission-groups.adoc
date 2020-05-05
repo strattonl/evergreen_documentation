@@ -21,7 +21,18 @@ The first step in defining a permission group is to identify like types of users
 
 === Permission group hierarchy
 
+=== Permission depth
+Permission depth is used to specify to what depth in the Organizational Unit hierarchy - or, at which org unit, toward whose items or patrons - permissions are applicable. 
 
+For example, the RENEW_CIRC permssion is applied to all User groups at depth=0. This allows any user - patron or staff - to renew any libraries' material, using the OPAC or any library workstation. In contrast, the DELETE_COPY permission is applied to the Catalogers group at depth=2. This limits the ability to delete an item record to staff in the Catalogers group, who can only delete item records owned by their local library system/branches, and cannot delete copies owned by other libraries. 
+
+ 0 - Entire Consortia - WEST - Westchester Library System
+ 1 - Local System - S_WLS - Westchester Library System Members
+ 2 - Library System - S_HAR - Harrison Public Library System
+ 3 - Library - HAR - Harrison Lublic Library
+ 3 - Library - HWE - West Harrison Branch Library 
+ 
+ 
 === Patrons
 
 ==== Patron groups and circulation rules

@@ -23,6 +23,10 @@ Staff groups are primarily used to manage staff client functions. Staff client f
 
 
 == Assigning Permissions
+=== Permission group hierarchy
+
+===+ Inheritance and Grantability
+ Child permission groups inherit permissions from their parent group(s). For example: COPY_CHECKIN is assigned to 
 
 === Permission depth
 Permission depth is used to specify to what depth in the Organizational Unit hierarchy - or, at which org unit, toward whose items or patrons - permissions are applicable. 
